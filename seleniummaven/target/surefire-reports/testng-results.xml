@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="6220" started-at="2022-08-08T09:16:48Z" finished-at="2022-08-08T09:16:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6220" started-at="2022-08-08T09:16:48Z" finished-at="2022-08-08T09:16:54Z">
+      <class name="advanceselenium.testVault">
+        <test-method status="PASS" signature="testvault()[pri:0, instance:advanceselenium.testVault@b97c004]" name="testvault" duration-ms="6207" started-at="2022-08-08T14:46:48Z" finished-at="2022-08-08T14:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvault -->
+      </class> <!-- advanceselenium.testVault -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

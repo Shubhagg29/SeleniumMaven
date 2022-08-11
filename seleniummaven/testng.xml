@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel= "false" thread-count="2">
+  <test name="Test">
+    <classes>
+      <class name="testCases.ExecuteTest"/>
+     <!-- <class name="com.learning.seleniummaven.HeadlessBrowserTest"/> -->
+    </classes>
+  </test>
+<!--   <listeners>
+		<listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+	</listeners> -->
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
